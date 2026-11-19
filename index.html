@@ -1,0 +1,445 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Israel Digital Studio — Websites that win clients</title>
+<meta name="description" content="Israel Digital Studio designs fast, professional websites for restaurants, home-service companies, clinics and online stores — plus SEO and social media management.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap">
+<style>
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:#fff;font-family:Inter,system-ui,sans-serif;color:#0B0B0C}
+a{color:#D90F24}a:hover{color:#A30B1B}
+h1,h2,h3{font-family:'Space Grotesk',sans-serif}
+.wrap{max-width:1280px;margin:0 auto}
+.pad-x{padding-left:64px;padding-right:64px}
+.eyebrow{font-weight:700;font-size:14px;letter-spacing:.1em;text-transform:uppercase;color:#D90F24}
+.eyebrow.lt{color:#FF3B4E}
+.sec-title{margin:0;font-size:52px;line-height:1.08;letter-spacing:-.02em}
+.muted{color:#52525B}.muted-d{color:#A1A1AA}
+.btn{text-decoration:none;font-weight:600;font-size:16px;padding:16px 28px;border-radius:8px;min-height:48px;display:inline-flex;align-items:center}
+.btn-red{background:#D90F24;color:#fff}.btn-red:hover{background:#A30B1B;color:#fff}
+.btn-ghost{border:1.5px solid #fff;color:#fff}.btn-ghost:hover{background:#fff;color:#0B0B0C}
+.card-lift{transition:transform .2s ease,box-shadow .2s ease}
+.card-lift:hover{transform:translateY(-4px);box-shadow:0 18px 40px rgba(11,11,12,.12)}
+.navlink{color:#fff;text-decoration:none;font-weight:500}.navlink:hover{color:#FF3B4E}
+.logo{height:56px;width:auto;display:block}
+.logo-text{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:22px;color:#fff}
+.offer-bar{background:#D90F24;color:#fff;font-size:14px;font-weight:600;text-align:center;padding:10px 20px}
+.offer-bar a{color:#fff;text-decoration:underline}
+header{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px;padding-top:14px;padding-bottom:14px;border-bottom:1px solid #27272A;background:#0B0B0C;position:sticky;top:0;z-index:10}
+header nav{display:flex;gap:32px;font-size:15px}
+.hero{background:#0B0B0C;color:#fff;padding-top:96px;padding-bottom:104px}
+.hero .wrap{display:flex;flex-wrap:wrap;gap:64px;align-items:center}
+.hero-l{flex:1 1 520px;min-width:0;display:flex;flex-direction:column;gap:28px}
+.pill{align-self:flex-start;border:1px solid #3F3F46;color:#E4E4E7;font-size:13px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;padding:8px 14px;border-radius:999px}
+.hero h1{margin:0;font-weight:700;font-size:72px;line-height:1.02;letter-spacing:-.02em}
+.hero h1 span{color:#FF3B4E}
+.hero p{margin:0;font-size:19px;line-height:1.6;color:#A1A1AA;max-width:560px}
+.row{display:flex;flex-wrap:wrap;gap:14px}
+.stats{display:flex;flex-wrap:wrap;gap:28px;padding-top:12px;border-top:1px solid #27272A}
+.stats div{display:flex;flex-direction:column;gap:4px}
+.stats b{font-family:'Space Grotesk',sans-serif;font-size:32px}
+.stats span{font-size:14px;color:#A1A1AA}
+.hero-r{flex:1 1 440px;min-width:0;position:relative;height:480px}
+.mock{position:absolute;background:#fff;overflow:hidden}
+.mock img{width:100%;object-fit:cover;object-position:top;display:block;background:#F4F4F5}
+.bar{background:#F4F4F5;display:flex;align-items:center;gap:6px;padding:0 12px;height:28px}
+.dot{width:9px;height:9px;border-radius:50%}.dot.r{background:#D90F24}.dot.g{background:#A1A1AA}.dot.l{background:#D4D4D8}
+.dom{margin-left:8px;font-size:11px;color:#52525B}
+.mock1{top:0;right:0;width:88%;height:340px;border-radius:14px;box-shadow:0 30px 60px rgba(0,0,0,.45)}
+.mock1 .bar{height:36px}.mock1 img{height:304px}
+.mock2{bottom:0;left:0;width:62%;height:230px;border-radius:12px;border:3px solid #D90F24;box-shadow:0 24px 50px rgba(0,0,0,.5)}
+.mock2 img{height:196px}
+.badge{position:absolute;bottom:20px;right:0;background:#fff;color:#0B0B0C;border-radius:12px;padding:14px 18px;display:flex;align-items:center;gap:12px;box-shadow:0 16px 34px rgba(0,0,0,.4);font-size:14px;font-weight:600}
+.industries{padding-top:28px;padding-bottom:28px;border-bottom:1px solid #E4E4E7}
+.industries .wrap{display:flex;flex-wrap:wrap;gap:14px 36px;align-items:center;justify-content:center;font-size:15px;font-weight:600;color:#52525B}
+section.block{padding-top:112px;padding-bottom:112px}
+.dark{background:#0B0B0C;color:#fff}
+.head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:24px}
+.head>div{display:flex;flex-direction:column;gap:14px;max-width:680px}
+.head>p{margin:0;max-width:420px;font-size:17px;line-height:1.6}
+.col{display:flex;flex-direction:column}
+.grid{display:grid;gap:20px}
+.svc{border:1px solid #E4E4E7;border-radius:14px;padding:28px;display:flex;flex-direction:column;gap:14px;background:#fff}
+.svc .num{font-family:'Space Grotesk',sans-serif;font-size:15px;font-weight:700;color:#D90F24}
+.svc h3{margin:0;font-size:22px;line-height:1.25}
+.svc p{margin:0;font-size:15px;line-height:1.6;color:#52525B}
+.season{border:1px solid #3F3F46;border-radius:12px;padding:18px 20px;display:flex;flex-direction:column;gap:6px}
+.season .when{font-size:13px;font-weight:700;color:#FF3B4E;letter-spacing:.06em;text-transform:uppercase}
+.season .what{font-family:'Space Grotesk',sans-serif;font-size:19px;font-weight:600}
+.season .who{font-size:14px;color:#A1A1AA}
+.offer{border-radius:16px;padding:30px;display:flex;flex-direction:column;gap:16px}
+.offer.dark{border:1px solid #3F3F46;background:#18181B}
+.offer.hot{background:#D90F24;color:#fff}
+.offer .tag{font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#fff;padding:6px 10px;border-radius:6px;background:#D90F24}
+.offer.hot .tag{background:#0B0B0C}
+.offer h3{margin:0;font-size:26px;line-height:1.2}
+.offer p{margin:0;font-size:15px;line-height:1.6;color:#A1A1AA}
+.offer.hot p{color:#fff}
+.offer ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:10px;font-size:15px}
+.offer li{display:flex;gap:10px;align-items:flex-start}
+.offer-foot{margin-top:auto;display:flex;flex-direction:column;gap:14px;padding-top:8px}
+.price{font-family:'Space Grotesk',sans-serif;font-size:22px;font-weight:700}
+.offer-btn{background:#D90F24;color:#fff;text-decoration:none;font-weight:600;text-align:center;padding:14px;border-radius:8px;min-height:48px;display:flex;align-items:center;justify-content:center}
+.offer.hot .offer-btn{background:#fff;color:#0B0B0C;font-weight:700}
+.proof a{text-decoration:none;color:#fff;border-radius:14px;overflow:hidden;border:1px solid #3F3F46;display:flex;flex-direction:column;background:#18181B}
+.proof img{width:100%;aspect-ratio:16/9;object-fit:cover;object-position:top;display:block;background:#27272A}
+.proof .cap{padding:16px 20px;display:flex;justify-content:space-between;gap:12px;font-size:15px}
+.soc{display:flex;gap:10px;align-items:flex-start;font-size:15px;font-weight:500}
+.tick{flex:none;width:24px;height:24px;border-radius:6px;background:#D90F24;color:#fff;display:flex;align-items:center;justify-content:center}
+.chip{background:#fff;color:#0B0B0C;border:1.5px solid #D4D4D8;border-radius:999px;padding:10px 18px;font-size:14px;font-weight:600;min-height:44px;cursor:pointer;font-family:inherit}
+.chip.on{background:#0B0B0C;color:#fff;border-color:#0B0B0C}
+.proj{text-decoration:none;color:#0B0B0C;border:1px solid #E4E4E7;border-radius:14px;overflow:hidden;display:flex;flex-direction:column;background:#fff}
+.proj img{width:100%;height:190px;object-fit:cover;object-position:top;display:block;background:#F4F4F5}
+.thumb{height:190px;display:flex;align-items:center;justify-content:center}
+.thumb span{font-family:'Space Grotesk',sans-serif;font-size:24px;font-weight:700;line-height:1.15;text-align:center;padding:0 20px;word-break:break-word}
+.tone-dark{background:#0B0B0C;color:#fff}.tone-red{background:#D90F24;color:#fff}.tone-light{background:#F4F4F5;color:#0B0B0C}
+.pname{padding:16px 20px 0;font-family:'Space Grotesk',sans-serif;font-size:19px;font-weight:700}
+.pinfo{padding:8px 20px 18px;display:flex;flex-direction:column;gap:6px}
+.pcat{font-size:12px;font-weight:700;color:#D90F24;letter-spacing:.06em;text-transform:uppercase}
+.pdesc{font-size:15px;color:#52525B;line-height:1.5}
+.pvisit{font-size:14px;font-weight:600;margin-top:6px}
+.step{border-top:3px solid #D90F24;padding-top:22px;display:flex;flex-direction:column;gap:10px}
+.step .n{font-family:'Space Grotesk',sans-serif;font-size:40px;font-weight:700;color:#3F3F46}
+.step h3{margin:0;font-size:21px}
+.step p{margin:0;font-size:15px;line-height:1.6;color:#A1A1AA}
+.photo{flex:1 1 360px;min-width:0;aspect-ratio:4/5;max-width:460px;background:#F4F4F5;border:2px dashed #A1A1AA;border-radius:18px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;color:#52525B;text-align:center;padding:24px}
+.why{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.why div{display:flex;flex-direction:column;gap:6px}.why span{font-size:15px;color:#52525B}
+.review{margin:0;border:1px solid #E4E4E7;border-radius:14px;padding:28px;display:flex;flex-direction:column;gap:16px}
+.review blockquote{margin:0;font-size:17px;line-height:1.6}
+.review figcaption{font-size:14px;color:#52525B;font-weight:600}
+#contact{background:#D90F24;color:#fff}
+.cta-link{text-decoration:none;font-weight:600;padding:16px 22px;border-radius:10px;display:flex;align-items:center;gap:12px;min-height:52px;max-width:380px}
+form{flex:1 1 480px;min-width:0;background:#fff;color:#0B0B0C;border-radius:18px;padding:36px;display:flex;flex-direction:column;gap:18px;box-shadow:0 30px 60px rgba(11,11,12,.25)}
+label{display:flex;flex-direction:column;gap:6px;font-size:14px;font-weight:600}
+input,select,textarea{font:inherit;border:1px solid #A1A1AA;border-radius:8px;font-size:15px;background:#fff}
+input,select{height:48px;padding:0 14px}textarea{padding:12px 14px;resize:vertical}
+input:focus,select:focus,textarea:focus{outline:2px solid #D90F24;outline-offset:1px}
+form button{background:#D90F24;color:#fff;border:0;font-weight:700;font-size:16px;height:52px;border-radius:8px;cursor:pointer}
+form button:hover{background:#A30B1B}
+footer{background:#0B0B0C;color:#A1A1AA;padding-top:40px;padding-bottom:40px;font-size:14px}
+footer a{color:#fff}
+footer .logo{height:44px}
+@media (max-width:860px){
+  .hide-sm{display:none !important}
+  .hero h1{font-size:44px}
+  .sec-title{font-size:34px !important}
+  .pad-x{padding-left:20px;padding-right:20px}
+  section.block{padding-top:72px;padding-bottom:72px}
+  .hero{padding-top:64px;padding-bottom:72px}
+  .why{grid-template-columns:1fr}
+  form{padding:24px}
+}
+</style>
+</head>
+<body>
+
+<div class="offer-bar">Black Friday &amp; holiday website slots are filling up — <a href="#seasonal">see this season's offers</a></div>
+
+<header class="pad-x">
+  <a href="#top" aria-label="Israel Digital Studio — home" style="display:flex;align-items:center;text-decoration:none"><img src="images/logo.png" alt="Israel Digital Studio" class="logo" onerror="this.outerHTML='<span class=&quot;logo-text&quot;>Israel Digital Studio</span>'"></a>
+  <nav class="hide-sm">
+    <a class="navlink" href="#services">Services</a>
+    <a class="navlink" href="#seasonal">Seasonal offers</a>
+    <a class="navlink" href="#social">Social media</a>
+    <a class="navlink" href="#work">Work</a>
+    <a class="navlink" href="#process">Process</a>
+  </nav>
+  <a class="btn btn-red" href="#contact" style="font-size:15px;padding:12px 22px;min-height:44px">Get a free quote</a>
+</header>
+
+<section id="top" class="hero pad-x">
+  <div class="wrap">
+    <div class="hero-l">
+      <span class="pill">Websites · SEO · Social media</span>
+      <h1>Websites that turn visitors into <span>paying clients.</span></h1>
+      <p>I design and build fast, professional websites for restaurants, home-service companies, clinics and online stores — then help you get found on Google and stay visible on social media.</p>
+      <div class="row">
+        <a class="btn btn-red" href="#contact">Start my project</a>
+        <a class="btn btn-ghost" href="#work">See my work</a>
+      </div>
+      <div class="stats">
+        <div><b>18</b><span>live client websites</span></div>
+        <div><b>4</b><span>countries: CA · US · UK · AU</span></div>
+        <div><b>Free</b><span>SEO check with every site</span></div>
+      </div>
+    </div>
+    <div class="hero-r hide-sm">
+      <div class="mock mock1">
+        <div class="bar"><span class="dot r"></span><span class="dot g"></span><span class="dot l"></span><span class="dom" style="font-size:12px">premierrestaurant.ca</span></div>
+        <img src="images/premier-restaurant.jpg" alt="Premier Restaurant website homepage">
+      </div>
+      <div class="mock mock2">
+        <div class="bar"><span class="dot r"></span><span class="dot g"></span><span class="dot l"></span><span class="dom">herculessupplements.com.au</span></div>
+        <img src="images/hercules-supplements.jpg" alt="Hercules Supplements Black Friday homepage">
+      </div>
+      <div class="badge">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#D90F24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 17l6-6 4 4 8-8"></path><path d="M14 7h7v7"></path></svg>
+        Mobile-first · Fast · SEO-ready
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="industries pad-x">
+  <div class="wrap">
+    <span style="color:#0B0B0C">Trusted by businesses in:</span>
+    <span>Restaurants</span><span>Construction</span><span>Cleaning</span><span>Roofing</span><span>Med spas &amp; clinics</span><span>eCommerce</span><span>Weddings &amp; events</span>
+  </div>
+</section>
+
+<section id="services" class="block pad-x">
+  <div class="wrap col" style="gap:56px">
+    <div class="head">
+      <div><span class="eyebrow">What I do</span><h2 class="sec-title">Everything your business needs to look credible and get found.</h2></div>
+      <p class="muted">One partner for design, development, Google visibility and social media — so you're not juggling five freelancers.</p>
+    </div>
+    <div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(260px,1fr))">
+<div class="card-lift svc"><span class="num">01</span><h3>Business Website Design</h3><p>Responsive, professional websites that build credibility and turn visitors into enquiries.</p></div>
+<div class="card-lift svc"><span class="num">02</span><h3>Website Redesign</h3><p>Refresh an outdated site with better structure, modern design and a smoother user experience.</p></div>
+<div class="card-lift svc"><span class="num">03</span><h3>Online Stores &amp; WooCommerce</h3><p>Product catalogues, smooth checkout and payment integration — ready for sale season.</p></div>
+<div class="card-lift svc"><span class="num">04</span><h3>SEO &amp; Google Visibility</h3><p>Technical, on-page and local SEO so customers in your area can find you.</p></div>
+<div class="card-lift svc"><span class="num">05</span><h3>Social Media Management</h3><p>Content planning, branded post design and scheduling that drives traffic to your site.</p></div>
+<div class="card-lift svc"><span class="num">06</span><h3>WordPress Development</h3><p>Fast, easy-to-manage WordPress sites you can update yourself.</p></div>
+<div class="card-lift svc"><span class="num">07</span><h3>Speed Optimization</h3><p>Faster loading and better Core Web Vitals — fewer visitors bouncing away.</p></div>
+<div class="card-lift svc"><span class="num">08</span><h3>Bug Fixing</h3><p>Broken layouts, plugin conflicts and mobile display issues, fixed properly.</p></div>
+<div class="card-lift svc"><span class="num">09</span><h3>Website Maintenance</h3><p>Updates, security and ongoing support, matched to what your business needs.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="seasonal" class="block pad-x dark">
+  <div class="wrap col" style="gap:48px">
+    <div class="head">
+      <div><span class="eyebrow lt">Seasonal growth offers</span><h2 class="sec-title">This is the busiest buying season of the year. Is your website ready?</h2></div>
+      <p class="muted-d">Limited project slots each season so every client gets launched on time. Book early to go live before the rush.</p>
+    </div>
+    <div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px">
+<div class="season"><span class="when">November</span><span class="what">Black Friday &amp; Cyber Monday</span><span class="who">Online stores, salons, retailers</span></div>
+<div class="season"><span class="when">December</span><span class="what">Holiday season</span><span class="who">Restaurants, cleaners, florists, gifting</span></div>
+<div class="season"><span class="when">January</span><span class="what">New Year, new website</span><span class="who">Any business planning for growth</span></div>
+<div class="season"><span class="when">February</span><span class="what">Valentine&#x27;s &amp; wedding season</span><span class="who">Florists, restaurants, event pros</span></div>
+    </div>
+    <div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(280px,1fr))">
+<div class="card-lift offer hot"><div><span class="tag">Most popular · Black Friday</span></div><h3>Sale-Ready Store Setup</h3><p>Get your store fast, stable and ready to convert before the Black Friday traffic hits.</p><ul><li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none;margin-top:2px"><path d="M20 6L9 17l-5-5"></path></svg><span>Speed &amp; checkout fixes</span></li><li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none;margin-top:2px"><path d="M20 6L9 17l-5-5"></path></svg><span>Black Friday landing page</span></li><li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none;margin-top:2px"><path d="M20 6L9 17l-5-5"></path></svg><span>Sale banners &amp; countdown</span></li><li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none;margin-top:2px"><path d="M20 6L9 17l-5-5"></path></svg><span>Mobile shopping tested</span></li></ul><div class="offer-foot"><span class="price">From [YOUR PRICE]</span><a href="#contact" class="offer-btn">Claim a Black Friday slot</a></div></div>
+<div class="card-lift offer dark"><div><span class="tag">Holiday SEO</span></div><h3>Get Found This Season</h3><p>Show up when local customers search for holiday services and gifts near them.</p><ul><li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none;margin-top:2px"><path d="M20 6L9 17l-5-5"></path></svg><span>Free SEO health check</span></li><li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none;margin-top:2px"><path d="M20 6L9 17l-5-5"></path></svg><span>Google Business Profile tune-up</span></li><li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none;margin-top:2px"><path d="M20 6L9 17l-5-5"></path></svg><span>Holiday keyword pages</span></li><li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none;margin-top:2px"><path d="M20 6L9 17l-5-5"></path></svg><span>Local SEO fixes</span></li></ul><div class="offer-foot"><span class="price">From [YOUR PRICE]</span><a href="#contact" class="offer-btn">Get my free SEO check</a></div></div>
+<div class="card-lift offer dark"><div><span class="tag">Social media</span></div><h3>Holiday Content Pack</h3><p>A month of branded posts for your holiday promotions — planned, designed and scheduled.</p><ul><li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none;margin-top:2px"><path d="M20 6L9 17l-5-5"></path></svg><span>Content calendar</span></li><li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none;margin-top:2px"><path d="M20 6L9 17l-5-5"></path></svg><span>Branded post designs</span></li><li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none;margin-top:2px"><path d="M20 6L9 17l-5-5"></path></svg><span>Captions &amp; hashtags</span></li><li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none;margin-top:2px"><path d="M20 6L9 17l-5-5"></path></svg><span>Links back to your site</span></li></ul><div class="offer-foot"><span class="price">From [YOUR PRICE] / month</span><a href="#contact" class="offer-btn">Plan my holiday posts</a></div></div>
+<div class="card-lift offer dark"><div><span class="tag">Book for January</span></div><h3>New Year Website Refresh</h3><p>Start the year with a modern website. Reserve your redesign now, launch in January.</p><ul><li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none;margin-top:2px"><path d="M20 6L9 17l-5-5"></path></svg><span>Full redesign</span></li><li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none;margin-top:2px"><path d="M20 6L9 17l-5-5"></path></svg><span>New pages &amp; copy structure</span></li><li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none;margin-top:2px"><path d="M20 6L9 17l-5-5"></path></svg><span>SEO-ready build</span></li><li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none;margin-top:2px"><path d="M20 6L9 17l-5-5"></path></svg><span>Launch support</span></li></ul><div class="offer-foot"><span class="price">From [YOUR PRICE]</span><a href="#contact" class="offer-btn">Reserve my January slot</a></div></div>
+    </div>
+    <div class="col proof" style="gap:20px;padding-top:16px;border-top:1px solid #27272A">
+      <h3 style="margin:0;font-size:26px">Black Friday sites I've built that are live right now</h3>
+      <div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(300px,1fr))">
+        <a class="card-lift" href="https://herculessupplements.com.au" target="_blank" rel="noopener">
+          <img src="images/hercules-supplements.jpg" alt="Hercules Supplements Black Friday sale page with countdown timer" loading="lazy">
+          <div class="cap"><span style="font-weight:600">Hercules Supplements</span><span class="muted-d">Countdown timer + sitewide sale</span></div>
+        </a>
+        <a class="card-lift" href="https://beautybakerie.com" target="_blank" rel="noopener">
+          <img src="images/beauty-bakerie.jpg" alt="Beauty Bakerie early Black Friday sale homepage" loading="lazy">
+          <div class="cap"><span style="font-weight:600">Beauty Bakerie</span><span class="muted-d">Early Black Friday promo banner</span></div>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="social" class="block pad-x" style="background:#F4F4F5">
+  <div class="wrap" style="display:flex;flex-wrap:wrap;gap:56px;align-items:center">
+    <div class="col" style="flex:1 1 420px;min-width:0;gap:22px">
+      <span class="eyebrow">Social media management</span>
+      <h2 class="sec-title" style="font-size:48px">Your website brings trust. Social media brings people back.</h2>
+      <p class="muted" style="margin:0;font-size:17px;line-height:1.7">I plan, design and post branded content for Facebook and Instagram that sends followers straight to your website — so your posts become bookings, orders and enquiries.</p>
+      <div class="grid" style="grid-template-columns:repeat(2,minmax(0,1fr));gap:14px">
+<div class="soc"><span class="tick"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"></path></svg></span><span>Monthly content calendar</span></div>
+<div class="soc"><span class="tick"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"></path></svg></span><span>Branded post &amp; story design</span></div>
+<div class="soc"><span class="tick"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"></path></svg></span><span>Captions written for your audience</span></div>
+<div class="soc"><span class="tick"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"></path></svg></span><span>Scheduling &amp; posting</span></div>
+<div class="soc"><span class="tick"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"></path></svg></span><span>Seasonal campaign posts</span></div>
+<div class="soc"><span class="tick"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"></path></svg></span><span>Monthly performance summary</span></div>
+      </div>
+      <a class="btn btn-red" href="#contact" style="align-self:flex-start">Plan my social content</a>
+    </div>
+    <div style="flex:1 1 380px;min-width:0;display:flex;justify-content:center;gap:20px">
+      <div style="width:260px;background:#0B0B0C;border-radius:34px;padding:12px;box-shadow:0 30px 60px rgba(11,11,12,.25)">
+        <div style="background:#fff;border-radius:24px;overflow:hidden;display:flex;flex-direction:column">
+          <div style="display:flex;align-items:center;gap:10px;padding:14px">
+            <span style="width:32px;height:32px;border-radius:50%;background:#D90F24"></span>
+            <div class="col" style="gap:4px"><span style="font-size:13px;font-weight:700">yourbrand</span><span style="font-size:11px;color:#52525B">Sponsored</span></div>
+          </div>
+          <div style="height:230px;background:#D90F24;color:#fff;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:6px;text-align:center;padding:20px">
+            <span style="font-size:13px;font-weight:700;letter-spacing:.12em">BLACK FRIDAY</span>
+            <span style="font-family:'Space Grotesk',sans-serif;font-size:40px;font-weight:700;line-height:1">[XX]% OFF</span>
+            <span style="font-size:13px">Shop now on our website</span>
+          </div>
+          <div class="col" style="padding:14px;gap:8px">
+            <div style="height:8px;width:80%;background:#E4E4E7;border-radius:4px"></div>
+            <div style="height:8px;width:55%;background:#E4E4E7;border-radius:4px"></div>
+            <div style="height:34px;background:#0B0B0C;border-radius:6px;margin-top:6px;color:#fff;font-size:13px;font-weight:600;display:flex;align-items:center;justify-content:center">Visit website</div>
+          </div>
+        </div>
+      </div>
+      <div class="hide-sm col" style="width:180px;gap:14px;padding-top:60px">
+        <div style="aspect-ratio:1;background:#0B0B0C;border-radius:14px;color:#fff;display:flex;align-items:center;justify-content:center;text-align:center;padding:14px;font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:18px">New menu this week</div>
+        <div style="aspect-ratio:1;background:#fff;border:2px solid #0B0B0C;border-radius:14px;display:flex;align-items:center;justify-content:center;text-align:center;padding:14px;font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:18px">Book your holiday clean</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="work" class="block pad-x">
+  <div class="wrap col" style="gap:40px">
+    <div class="col" style="gap:14px;max-width:720px">
+      <span class="eyebrow">Selected work</span>
+      <h2 class="sec-title">18 live websites for real businesses.</h2>
+    </div>
+    <div role="group" aria-label="Filter projects by industry" class="row" style="gap:10px">
+<button type="button" class="chip on" data-cat="All">All</button>
+<button type="button" class="chip" data-cat="Restaurants &amp; Food">Restaurants &amp; Food</button>
+<button type="button" class="chip" data-cat="Home &amp; Construction">Home &amp; Construction</button>
+<button type="button" class="chip" data-cat="eCommerce">eCommerce</button>
+<button type="button" class="chip" data-cat="Health &amp; Beauty">Health &amp; Beauty</button>
+<button type="button" class="chip" data-cat="Weddings &amp; Events">Weddings &amp; Events</button>
+    </div>
+    <div class="grid" id="projects" style="grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:22px">
+<a class="card-lift proj" data-cat="Restaurants &amp; Food" href="https://premierrestaurant.ca" target="_blank" rel="noopener"><div class="bar"><span class="dot r"></span><span class="dot g"></span><span class="dot l"></span><span class="dom">premierrestaurant.ca</span></div><img src="images/premier-restaurant.jpg" alt="Premier Restaurant website homepage" loading="lazy" onerror="this.outerHTML=this.dataset.fb" data-fb="&lt;div class=&quot;thumb tone-dark&quot;&gt;&lt;span&gt;premierrestaurant.ca&lt;/span&gt;&lt;/div&gt;"><div class="pname">Premier Restaurant</div><div class="pinfo"><span class="pcat">Restaurants &amp; Food</span><span class="pdesc">Restaurant website — Thornhill, Ontario</span><span class="pvisit">Visit live site →</span></div></a>
+<a class="card-lift proj" data-cat="Restaurants &amp; Food" href="https://canadiandreamhoney.com" target="_blank" rel="noopener"><div class="bar"><span class="dot r"></span><span class="dot g"></span><span class="dot l"></span><span class="dom">canadiandreamhoney.com</span></div><img src="images/canadian-dream-honey.jpg" alt="Canadian Dream Honey website homepage" loading="lazy" onerror="this.outerHTML=this.dataset.fb" data-fb="&lt;div class=&quot;thumb tone-red&quot;&gt;&lt;span&gt;canadiandreamhoney.com&lt;/span&gt;&lt;/div&gt;"><div class="pname">Canadian Dream Honey</div><div class="pinfo"><span class="pcat">Restaurants &amp; Food</span><span class="pdesc">Ontario wildflower honey with wholesale info</span><span class="pvisit">Visit live site →</span></div></a>
+<a class="card-lift proj" data-cat="Restaurants &amp; Food" href="https://taduethiopiankitchen.com" target="_blank" rel="noopener"><div class="bar"><span class="dot r"></span><span class="dot g"></span><span class="dot l"></span><span class="dom">taduethiopiankitchen.com</span></div><div class="thumb tone-light"><span>taduethiopiankitchen.com</span></div><div class="pname">Tadu Ethiopian Kitchen</div><div class="pinfo"><span class="pcat">Restaurants &amp; Food</span><span class="pdesc">Ethiopian restaurant with online ordering — San Francisco</span><span class="pvisit">Visit live site →</span></div></a>
+<a class="card-lift proj" data-cat="Home &amp; Construction" href="https://omaxconstruction.com" target="_blank" rel="noopener"><div class="bar"><span class="dot r"></span><span class="dot g"></span><span class="dot l"></span><span class="dom">omaxconstruction.com</span></div><img src="images/omax-construction.jpg" alt="OMAX Construction website homepage" loading="lazy" onerror="this.outerHTML=this.dataset.fb" data-fb="&lt;div class=&quot;thumb tone-dark&quot;&gt;&lt;span&gt;omaxconstruction.com&lt;/span&gt;&lt;/div&gt;"><div class="pname">OMAX Construction</div><div class="pinfo"><span class="pcat">Home &amp; Construction</span><span class="pdesc">Underground utility services — Cuyahoga Falls, Ohio</span><span class="pvisit">Visit live site →</span></div></a>
+<a class="card-lift proj" data-cat="Home &amp; Construction" href="https://icebergcleaning.com" target="_blank" rel="noopener"><div class="bar"><span class="dot r"></span><span class="dot g"></span><span class="dot l"></span><span class="dom">icebergcleaning.com</span></div><img src="images/iceberg-cleaning.jpg" alt="Iceberg Cleaning website homepage" loading="lazy" onerror="this.outerHTML=this.dataset.fb" data-fb="&lt;div class=&quot;thumb tone-red&quot;&gt;&lt;span&gt;icebergcleaning.com&lt;/span&gt;&lt;/div&gt;"><div class="pname">Iceberg Cleaning</div><div class="pinfo"><span class="pcat">Home &amp; Construction</span><span class="pdesc">House and office cleaning — Vaughan / GTA</span><span class="pvisit">Visit live site →</span></div></a>
+<a class="card-lift proj" data-cat="Home &amp; Construction" href="https://calgaryroofingexterior.com" target="_blank" rel="noopener"><div class="bar"><span class="dot r"></span><span class="dot g"></span><span class="dot l"></span><span class="dom">calgaryroofingexterior.com</span></div><img src="images/calgary-roofing.jpg" alt="Calgary Roofing &amp; Exteriors website homepage" loading="lazy" onerror="this.outerHTML=this.dataset.fb" data-fb="&lt;div class=&quot;thumb tone-light&quot;&gt;&lt;span&gt;calgaryroofingexterior.com&lt;/span&gt;&lt;/div&gt;"><div class="pname">Calgary Roofing &amp; Exteriors</div><div class="pinfo"><span class="pcat">Home &amp; Construction</span><span class="pdesc">Residential and commercial roofing</span><span class="pvisit">Visit live site →</span></div></a>
+<a class="card-lift proj" data-cat="Home &amp; Construction" href="https://stuccowallsystems.ca" target="_blank" rel="noopener"><div class="bar"><span class="dot r"></span><span class="dot g"></span><span class="dot l"></span><span class="dom">stuccowallsystems.ca</span></div><img src="images/stucco-wall-systems.jpg" alt="Stucco Wall Systems website homepage" loading="lazy" onerror="this.outerHTML=this.dataset.fb" data-fb="&lt;div class=&quot;thumb tone-dark&quot;&gt;&lt;span&gt;stuccowallsystems.ca&lt;/span&gt;&lt;/div&gt;"><div class="pname">Stucco Wall Systems</div><div class="pinfo"><span class="pcat">Home &amp; Construction</span><span class="pdesc">Stucco and exterior walls — Oakville / GTA</span><span class="pvisit">Visit live site →</span></div></a>
+<a class="card-lift proj" data-cat="Home &amp; Construction" href="https://pavmacleaning.ca" target="_blank" rel="noopener"><div class="bar"><span class="dot r"></span><span class="dot g"></span><span class="dot l"></span><span class="dom">pavmacleaning.ca</span></div><img src="images/pavma-cleaning.jpg" alt="PavMa Cleaning website homepage" loading="lazy" onerror="this.outerHTML=this.dataset.fb" data-fb="&lt;div class=&quot;thumb tone-red&quot;&gt;&lt;span&gt;pavmacleaning.ca&lt;/span&gt;&lt;/div&gt;"><div class="pname">PavMa Cleaning</div><div class="pinfo"><span class="pcat">Home &amp; Construction</span><span class="pdesc">Home cleaning — Toronto / GTA</span><span class="pvisit">Visit live site →</span></div></a>
+<a class="card-lift proj" data-cat="eCommerce" href="https://herculessupplements.com.au" target="_blank" rel="noopener"><div class="bar"><span class="dot r"></span><span class="dot g"></span><span class="dot l"></span><span class="dom">herculessupplements.com.au</span></div><img src="images/hercules-supplements.jpg" alt="Hercules Supplements website homepage" loading="lazy" onerror="this.outerHTML=this.dataset.fb" data-fb="&lt;div class=&quot;thumb tone-light&quot;&gt;&lt;span&gt;herculessupplements.com.au&lt;/span&gt;&lt;/div&gt;"><div class="pname">Hercules Supplements</div><div class="pinfo"><span class="pcat">eCommerce</span><span class="pdesc">Sports nutrition and supplements — Australia</span><span class="pvisit">Visit live site →</span></div></a>
+<a class="card-lift proj" data-cat="eCommerce" href="https://beautybakerie.com" target="_blank" rel="noopener"><div class="bar"><span class="dot r"></span><span class="dot g"></span><span class="dot l"></span><span class="dom">beautybakerie.com</span></div><img src="images/beauty-bakerie.jpg" alt="Beauty Bakerie website homepage" loading="lazy" onerror="this.outerHTML=this.dataset.fb" data-fb="&lt;div class=&quot;thumb tone-dark&quot;&gt;&lt;span&gt;beautybakerie.com&lt;/span&gt;&lt;/div&gt;"><div class="pname">Beauty Bakerie</div><div class="pinfo"><span class="pcat">eCommerce</span><span class="pdesc">Cosmetics and online beauty store</span><span class="pvisit">Visit live site →</span></div></a>
+<a class="card-lift proj" data-cat="eCommerce" href="https://mycarpe.com" target="_blank" rel="noopener"><div class="bar"><span class="dot r"></span><span class="dot g"></span><span class="dot l"></span><span class="dom">mycarpe.com</span></div><img src="images/carpe.jpg" alt="Carpe website homepage" loading="lazy" onerror="this.outerHTML=this.dataset.fb" data-fb="&lt;div class=&quot;thumb tone-red&quot;&gt;&lt;span&gt;mycarpe.com&lt;/span&gt;&lt;/div&gt;"><div class="pname">Carpe</div><div class="pinfo"><span class="pcat">eCommerce</span><span class="pdesc">Sweat-care products storefront</span><span class="pvisit">Visit live site →</span></div></a>
+<a class="card-lift proj" data-cat="eCommerce" href="https://lyzenvia.com" target="_blank" rel="noopener"><div class="bar"><span class="dot r"></span><span class="dot g"></span><span class="dot l"></span><span class="dom">lyzenvia.com</span></div><img src="images/lyzenvia.jpg" alt="Lyzenvia website homepage" loading="lazy" onerror="this.outerHTML=this.dataset.fb" data-fb="&lt;div class=&quot;thumb tone-light&quot;&gt;&lt;span&gt;lyzenvia.com&lt;/span&gt;&lt;/div&gt;"><div class="pname">Lyzenvia</div><div class="pinfo"><span class="pcat">eCommerce</span><span class="pdesc">Daily supplement storefront</span><span class="pvisit">Visit live site →</span></div></a>
+<a class="card-lift proj" data-cat="eCommerce" href="https://valleyaesthetics.co.uk" target="_blank" rel="noopener"><div class="bar"><span class="dot r"></span><span class="dot g"></span><span class="dot l"></span><span class="dom">valleyaesthetics.co.uk</span></div><img src="images/valley-aesthetics.jpg" alt="Valley Pharmacy Aesthetics website homepage" loading="lazy" onerror="this.outerHTML=this.dataset.fb" data-fb="&lt;div class=&quot;thumb tone-dark&quot;&gt;&lt;span&gt;valleyaesthetics.co.uk&lt;/span&gt;&lt;/div&gt;"><div class="pname">Valley Pharmacy Aesthetics</div><div class="pinfo"><span class="pcat">eCommerce</span><span class="pdesc">Online aesthetic products catalogue — UK</span><span class="pvisit">Visit live site →</span></div></a>
+<a class="card-lift proj" data-cat="Health &amp; Beauty" href="https://mrchristopherwest.co.uk" target="_blank" rel="noopener"><div class="bar"><span class="dot r"></span><span class="dot g"></span><span class="dot l"></span><span class="dom">mrchristopherwest.co.uk</span></div><img src="images/christopher-west.jpg" alt="Mr Christopher West website homepage" loading="lazy" onerror="this.outerHTML=this.dataset.fb" data-fb="&lt;div class=&quot;thumb tone-red&quot;&gt;&lt;span&gt;mrchristopherwest.co.uk&lt;/span&gt;&lt;/div&gt;"><div class="pname">Mr Christopher West</div><div class="pinfo"><span class="pcat">Health &amp; Beauty</span><span class="pdesc">Facial surgery and consultations — UK</span><span class="pvisit">Visit live site →</span></div></a>
+<a class="card-lift proj" data-cat="Health &amp; Beauty" href="https://circlecityaba.com" target="_blank" rel="noopener"><div class="bar"><span class="dot r"></span><span class="dot g"></span><span class="dot l"></span><span class="dom">circlecityaba.com</span></div><img src="images/circle-city-aba.jpg" alt="Circle City ABA website homepage" loading="lazy" onerror="this.outerHTML=this.dataset.fb" data-fb="&lt;div class=&quot;thumb tone-light&quot;&gt;&lt;span&gt;circlecityaba.com&lt;/span&gt;&lt;/div&gt;"><div class="pname">Circle City ABA</div><div class="pinfo"><span class="pcat">Health &amp; Beauty</span><span class="pdesc">ABA therapy services and family resources</span><span class="pvisit">Visit live site →</span></div></a>
+<a class="card-lift proj" data-cat="Health &amp; Beauty" href="https://pureaestheticsmedicalspa.com" target="_blank" rel="noopener"><div class="bar"><span class="dot r"></span><span class="dot g"></span><span class="dot l"></span><span class="dom">pureaestheticsmedicalspa.com</span></div><div class="thumb tone-dark"><span>pureaestheticsmedicalspa.com</span></div><div class="pname">Pure Aesthetics Medical Spa</div><div class="pinfo"><span class="pcat">Health &amp; Beauty</span><span class="pdesc">Aesthetic treatments — Dayton, Ohio</span><span class="pvisit">Visit live site →</span></div></a>
+<a class="card-lift proj" data-cat="Weddings &amp; Events" href="https://gladysflowers.com" target="_blank" rel="noopener"><div class="bar"><span class="dot r"></span><span class="dot g"></span><span class="dot l"></span><span class="dom">gladysflowers.com</span></div><img src="images/gladys-flowers.jpg" alt="Gladys Flowers website homepage" loading="lazy" onerror="this.outerHTML=this.dataset.fb" data-fb="&lt;div class=&quot;thumb tone-red&quot;&gt;&lt;span&gt;gladysflowers.com&lt;/span&gt;&lt;/div&gt;"><div class="pname">Gladys Flowers</div><div class="pinfo"><span class="pcat">Weddings &amp; Events</span><span class="pdesc">Wedding and event floral design</span><span class="pvisit">Visit live site →</span></div></a>
+<a class="card-lift proj" data-cat="Weddings &amp; Events" href="https://randytaylorweddings.com" target="_blank" rel="noopener"><div class="bar"><span class="dot r"></span><span class="dot g"></span><span class="dot l"></span><span class="dom">randytaylorweddings.com</span></div><img src="images/randy-taylor-weddings.jpg" alt="Randy Taylor Weddings website homepage" loading="lazy" onerror="this.outerHTML=this.dataset.fb" data-fb="&lt;div class=&quot;thumb tone-light&quot;&gt;&lt;span&gt;randytaylorweddings.com&lt;/span&gt;&lt;/div&gt;"><div class="pname">Randy Taylor Weddings</div><div class="pinfo"><span class="pcat">Weddings &amp; Events</span><span class="pdesc">Wedding officiant — SF Bay Area</span><span class="pvisit">Visit live site →</span></div></a>
+    </div>
+  </div>
+</section>
+
+<section id="process" class="pad-x dark" style="padding-top:104px;padding-bottom:104px">
+  <div class="wrap col" style="gap:48px">
+    <div class="col" style="gap:14px;max-width:640px">
+      <span class="eyebrow lt">How it works</span>
+      <h2 class="sec-title" style="font-size:48px">A clear, simple process from first call to launch.</h2>
+    </div>
+    <div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:16px">
+<div class="step"><span class="n">01</span><h3>Discovery</h3><p>A quick call to understand your business, customers and goals.</p></div>
+<div class="step"><span class="n">02</span><h3>Strategy</h3><p>Site structure, pages and content planned around what makes people buy.</p></div>
+<div class="step"><span class="n">03</span><h3>Design &amp; Build</h3><p>A modern, mobile-first design, developed and shared with you for feedback.</p></div>
+<div class="step"><span class="n">04</span><h3>Test &amp; Optimize</h3><p>Speed, mobile, forms and SEO basics checked before anything goes live.</p></div>
+<div class="step"><span class="n">05</span><h3>Launch &amp; Support</h3><p>Your site goes live — with support, updates and growth help after launch.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="block pad-x">
+  <div class="wrap" style="display:flex;flex-wrap:wrap;gap:64px;align-items:center">
+    <div class="photo">
+      <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="4"></circle><path d="M4 21c0-4 4-6 8-6s8 2 8 6"></path></svg>
+      <span style="font-weight:600">[Your professional photo]</span>
+      <span style="font-size:14px">A real, friendly headshot builds more trust than any stock image.</span>
+    </div>
+    <div class="col" style="flex:1 1 520px;min-width:0;gap:22px">
+      <span class="eyebrow">Why work with me</span>
+      <h2 class="sec-title" style="font-size:46px;line-height:1.1">Business-minded design, not just pretty pages.</h2>
+      <p class="muted" style="margin:0;font-size:17px;line-height:1.7">Israel Digital Studio is an independent web studio. A website should be more than an online brochure — it should earn trust, answer questions and make it easy to say yes. Every project is built around that one goal.</p>
+      <div class="why">
+        <div><b>Direct communication</b><span>You talk to the person building your site — on WhatsApp or email.</span></div>
+        <div><b>Mobile-first</b><span>Most of your customers visit on their phone. Every layout starts there.</span></div>
+        <div><b>Built to be found</b><span>Clean structure, fast loading and on-page SEO from day one.</span></div>
+        <div><b>Support after launch</b><span>Updates, fixes and maintenance whenever you need them.</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="wrap grid" style="margin-top:80px;grid-template-columns:repeat(auto-fit,minmax(280px,1fr))">
+<figure class="review"><svg width="30" height="30" viewBox="0 0 24 24" fill="#D90F24" aria-hidden="true"><path d="M7 7h4v4c0 3-2 5-4 6l-1-1.5c1.3-.8 2-2 2-3.5H7V7zm8 0h4v4c0 3-2 5-4 6l-1-1.5c1.3-.8 2-2 2-3.5h-1V7z"></path></svg><blockquote>[Add a verified client review here — ask a recent client for 2–3 sentences about results.]</blockquote><figcaption>[Client name, Business]</figcaption></figure>
+<figure class="review"><svg width="30" height="30" viewBox="0 0 24 24" fill="#D90F24" aria-hidden="true"><path d="M7 7h4v4c0 3-2 5-4 6l-1-1.5c1.3-.8 2-2 2-3.5H7V7zm8 0h4v4c0 3-2 5-4 6l-1-1.5c1.3-.8 2-2 2-3.5h-1V7z"></path></svg><blockquote>[Add a verified client review here — mention what changed after the new site launched.]</blockquote><figcaption>[Client name, Business]</figcaption></figure>
+<figure class="review"><svg width="30" height="30" viewBox="0 0 24 24" fill="#D90F24" aria-hidden="true"><path d="M7 7h4v4c0 3-2 5-4 6l-1-1.5c1.3-.8 2-2 2-3.5H7V7zm8 0h4v4c0 3-2 5-4 6l-1-1.5c1.3-.8 2-2 2-3.5h-1V7z"></path></svg><blockquote>[Add a verified client review here — communication and delivery are great things to highlight.]</blockquote><figcaption>[Client name, Business]</figcaption></figure>
+  </div>
+</section>
+
+<section id="contact" class="block pad-x">
+  <div class="wrap" style="display:flex;flex-wrap:wrap;gap:56px;align-items:flex-start">
+    <div class="col" style="flex:1 1 400px;min-width:0;gap:22px">
+      <h2 class="sec-title" style="font-size:56px;line-height:1.04">Let's build a website that brings you clients.</h2>
+      <p style="margin:0;font-size:18px;line-height:1.6">Tell me about your business. You'll get a reply within one business day with ideas, a timeline and a quote — no obligation.</p>
+      <div class="col" style="gap:12px">
+        <a class="cta-link" href="https://wa.me/2349118077378" target="_blank" rel="noopener" style="background:#0B0B0C;color:#fff">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a9 9 0 0 1-13.5 7.8L3 21l1.2-4.5A9 9 0 1 1 21 12z"></path></svg>
+          Chat on WhatsApp: +234 911 807 7378
+        </a>
+        <a class="cta-link" href="mailto:ayodelewebtech@gmail.com" style="background:#fff;color:#0B0B0C">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"></rect><path d="M3 7l9 6 9-6"></path></svg>
+          ayodelewebtech@gmail.com
+        </a>
+      </div>
+    </div>
+    <form id="quote">
+      <div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px">
+        <label>Full name<input type="text" name="name" required></label>
+        <label>Email<input type="email" name="email" required></label>
+      </div>
+      <label>Business name &amp; website (if any)<input type="text" name="business"></label>
+      <label>What do you need?
+        <select name="service">
+          <option>New business website</option>
+          <option>Website redesign</option>
+          <option>Online store / WooCommerce</option>
+          <option>Black Friday / holiday sale setup</option>
+          <option>SEO &amp; Google visibility</option>
+          <option>Social media management</option>
+          <option>Bug fixing / speed / maintenance</option>
+        </select>
+      </label>
+      <label>Tell me about your project<textarea name="details" rows="4"></textarea></label>
+      <button type="submit">Send my project details</button>
+      <span style="font-size:13px;color:#52525B;text-align:center">Free quote · No obligation · Reply within 1 business day</span>
+    </form>
+  </div>
+</section>
+
+<footer class="pad-x">
+  <div class="wrap" style="display:flex;flex-wrap:wrap;justify-content:space-between;gap:16px;align-items:center">
+    <span style="display:flex;align-items:center;gap:16px;flex-wrap:wrap"><img src="images/logo.png" alt="Israel Digital Studio" class="logo" onerror="this.outerHTML='<span class=&quot;logo-text&quot;>Israel Digital Studio</span>'"> © 2026 All rights reserved.</span>
+    <div style="display:flex;gap:24px">
+      <a href="https://www.facebook.com/profile.php?id=61596538112465" target="_blank" rel="noopener">Facebook</a>
+      <a href="https://wa.me/2349118077378" target="_blank" rel="noopener">WhatsApp</a>
+      <a href="mailto:ayodelewebtech@gmail.com">Email</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+// Work filter
+document.querySelectorAll('.chip').forEach(function (chip) {
+  chip.addEventListener('click', function () {
+    var cat = chip.dataset.cat;
+    document.querySelectorAll('.chip').forEach(function (c) { c.classList.toggle('on', c === chip); });
+    document.querySelectorAll('.proj').forEach(function (p) {
+      p.style.display = (cat === 'All' || p.dataset.cat === cat) ? '' : 'none';
+    });
+  });
+});
+// Quote form: opens the visitor's email app with the details filled in
+document.getElementById('quote').addEventListener('submit', function (e) {
+  e.preventDefault();
+  var f = e.target;
+  var body = 'Name: ' + f.name.value + '\nEmail: ' + f.email.value + '\nBusiness: ' + f.business.value +
+    '\nService: ' + f.service.value + '\n\n' + f.details.value;
+  window.location.href = 'mailto:ayodelewebtech@gmail.com?subject=' + encodeURIComponent('Website quote request — ' + f.name.value) +
+    '&body=' + encodeURIComponent(body);
+  f.querySelector('button').textContent = 'Thanks — I’ll be in touch soon';
+});
+</script>
+</body>
+</html>
